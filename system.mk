@@ -25,6 +25,7 @@ endif
 
 #Peripheral list (must match respective submodule or folder name in the submodules directory)
 PERIPHERALS:=UART
+PERIPHERALS:=UART TIMER
 
 #SIMULATION TEST
 SIM_LIST="SIMULATOR=icarus" "SIMULATOR=ncsim"
